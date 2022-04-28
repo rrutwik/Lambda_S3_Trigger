@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "ap-south-1",
+            "eventTime": "2022-04-26T15:37:45.245Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "A34X6FXCLNH6R0"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "157.45.240.126"
+            },
+            "responseElements": {
+                "x-amz-request-id": "JYCRT94QDCENCBE4",
+                "x-amz-id-2": "eutCIoJyLbcaMBv8bFc6AGRPOtzj7pZeQnvRgTcQHx9tEBzyiCVq+dbLoRa5G31yYS4jACZCs3hhKKVrRihowHEnP/WS2KCmj1UNjeTXzog="
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "NTNjZTg0YTYtNGI2Zi00YTdjLWJmOWQtMTcxMWRmMDk2ODg2",
+                "bucket": {
+                    "name": "python-cdk-project-s3bucket64cb25af-y60rsk5gam48",
+                    "ownerIdentity": {
+                        "principalId": "A34X6FXCLNH6R0"
+                    },
+                    "arn": "arn:aws:s3:::python-cdk-project-s3bucket64cb25af-y60rsk5gam48"
+                },
+                "object": {
+                    "key": "resume_rutwikpatel.pdf",
+                    "size": 53383,
+                    "eTag": "250695e2b094c2488b57fa469f2dbf93",
+                    "sequencer": "00626811C92AFEF615"
+                }
+            }
+        }
+    ]
+}
